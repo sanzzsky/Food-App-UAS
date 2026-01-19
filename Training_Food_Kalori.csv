@@ -1,0 +1,34 @@
+Category_AI,Nama_Makanan,Kalori,Protein,Lemak,Karbo,Porsi_Std_g,Ket_Porsi
+Rice,Nasi Putih (Default),180,3.0,0.3,39.8,150,1 Mangkok Kecil
+Rice,Nasi Goreng,267,6.3,11.9,35.8,150,1 Piring Standar
+Rice,Nasi Uduk,260,4.0,10.0,38.0,150,1 Bungkus/Piring
+Rice,Nasi Merah,110,2.8,0.9,22.8,150,1 Mangkok Kecil
+Bread,Roti Tawar Putih (Default),265,9.0,3.2,49.0,70,2 Lembar
+Bread,Roti Gandum,250,12.0,4.0,40.0,70,2 Lembar
+Bread,Roti Bakar Coklat/Keju,350,8.0,15.0,55.0,100,1 Tangkup
+Dairy Product,Susu Sapi Full Cream (Default),61,3.2,3.3,4.8,250,1 Gelas Besar
+Dairy Product,Yoghurt (Plain),59,10.0,0.4,3.6,150,1 Cup Kecil
+Dairy Product,Keju Cheddar,402,25.0,33.0,1.3,30,1 Lembar/Potong
+Dessert,Kue Bolu (Default),297,6.0,10.0,48.0,100,1 Potong Sedang
+Dessert,Donat (Gula/Coklat),452,8.0,24.0,51.0,80,1 Buah
+Dessert,Martabak Manis,270,5.0,12.0,40.0,100,1 Potong Tebal
+Egg,Telur Rebus (Default),155,12.6,10.6,1.1,60,1 Butir Besar
+Egg,Telur Goreng (Ceplok/Dadar),200,13.0,15.0,1.5,60,1 Butir (+Minyak)
+Fried Food,Ayam Goreng (Default),260,22.0,18.0,5.0,150,1 Potong Dada/Paha
+Fried Food,Tahu/Tempe Goreng,180,10.0,12.0,10.0,100,2 Potong
+Fried Food,Bakwan/Gorengan Tepung,280,4.0,16.0,30.0,100,2-3 Buah
+Meat,Daging Sapi/Rendang (Default),195,22.0,11.0,5.0,100,1-2 Potong
+Meat,Sate Ayam/Kambing,250,20.0,15.0,8.0,150,5-7 Tusuk (+Bumbu)
+Meat,Steak Daging,270,25.0,18.0,0.0,200,1 Porsi Steak
+Pasta,Mie Goreng (Indonesia),380,8.0,18.0,50.0,200,1 Piring Warung
+Pasta,Spaghetti Bolognaise,131,5.0,2.0,25.0,200,1 Piring
+Pasta,Mie Rebus/Kuah,320,7.0,12.0,45.0,300,1 Mangkok
+Seafood,Ikan Goreng (Default),200,20.0,12.0,0.0,100,1 Ekor Sedang
+Seafood,Udang Goreng/Saus Padang,150,18.0,6.0,5.0,100,5-8 Ekor
+Seafood,Cumi Goreng Tepung,250,15.0,14.0,15.0,100,1 Piring Kecil
+Soup,Sayur Asem/Sop Sayur (Default),40,2.0,1.5,5.0,250,1 Mangkok
+Soup,Soto Ayam (Daging+Kuah),120,8.0,6.0,10.0,300,1 Mangkok + Isi
+Soup,Bakso Kuah,200,10.0,12.0,15.0,300,1 Mangkok (5 butir)
+Vegetable Fruit,Tumis Sayur/Capcay (Default),70,3.0,4.0,6.0,150,1 Piring Lauk
+Vegetable Fruit,Gado-gado (Bumbu Kacang),130,6.0,8.0,15.0,200,1 Piring
+Vegetable Fruit,Buah Potong (Apel/Pisang),52,0.3,0.2,14.0,100,1 Buah/Mangkuk
