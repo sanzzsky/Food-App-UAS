@@ -17,7 +17,7 @@ st.set_page_config(
 )
 
 st.title("🍱 Food Detective AI")
-st.write("Deteksi Multi-Item + Pilih Varian Spesifik (Nasi Goreng, dll)")
+st.write("CALCULATION TOUR FOOD CALORY, Deteksi Multi-Item + Pilih Varian Spesifik ")
 
 # ==========================================
 # 2. LOAD RESOURCES
