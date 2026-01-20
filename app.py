@@ -17,7 +17,7 @@ st.set_page_config(
 )
 
 st.title("🍱 Food Detective AI")
-st.write("CALCULATION TOUR FOOD CALORY, Deteksi Multi-Item + Pilih Varian Spesifik ")
+st.write("CALCULATION TOUR FOOD CALORY, Deteksi Multi-Item + Pilih Varian Spesifik")
 
 # ==========================================
 # 2. LOAD RESOURCES
@@ -120,7 +120,6 @@ def predict_food(image_input, temperature=1.0):
             # Loop setiap kategori yang dipilih user
             for category in selected_categories:
                 # Cari semua makanan di database yang masuk kategori ini
-                # Misal Category="Rice" -> Dapat [Nasi Putih, Nasi Goreng, Nasi Uduk]
                 variants = df_nutrition[
                     df_nutrition['Category_AI'].str.contains(category, case=False, na=False)
                 ]
@@ -153,7 +152,7 @@ def predict_food(image_input, temperature=1.0):
                 detail_data = []
 
                 for food_name in final_selected_foods:
-                    # Ambil data berdasarkan nama makanan yang SUDAH DIPILIH (Nasi Goreng)
+                    # Ambil data berdasarkan nama makanan yang SUDAH DIPILIH
                     data = df_nutrition[df_nutrition['Nama_Makanan'] == food_name].iloc[0]
                     
                     totals['Kalori'] += data['Kalori']
@@ -178,8 +177,15 @@ def predict_food(image_input, temperature=1.0):
                 st.table(pd.DataFrame(detail_data, columns=["Menu Pilihan", "Energi", "Protein", "Lemak"]))
 
 # ==========================================
-# 5. UI INPUT
+# 5. UI INPUT & SIDEBAR
 # ==========================================
+
+# --- [MODIFIKASI] Link Profil di Kiri Atas ---
+st.sidebar.markdown("### 👨‍💻 Creator Profile")
+st.sidebar.link_button("🌐 Buka Web Profil", "https://portofolio-san.streamlit.app/")
+st.sidebar.divider()
+# ---------------------------------------------
+
 st.sidebar.header("⚙️ Pengaturan")
 sensitivity = st.sidebar.slider("Sensitivitas AI", 1.0, 5.0, 2.5, 0.5)
 
